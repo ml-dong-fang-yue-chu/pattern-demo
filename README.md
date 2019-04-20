@@ -1,5 +1,3 @@
-# pattern-demo
-设计模式demo代码
 
 # pattern-factory
 工厂模式demo
