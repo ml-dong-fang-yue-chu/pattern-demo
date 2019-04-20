@@ -11,4 +11,8 @@
 # pattern-proxy
 代理模式demo
 
+# pattern-delegate
+委派模式demo
+
+
 
