@@ -12,7 +12,7 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class ParametersCheck {
 
-    public MLException isEmpty(String param,String message){
+    public static MLException isEmpty(String param,String message){
         if(StringUtils.isEmpty(param)){
             return new MLException(message,param);
         }

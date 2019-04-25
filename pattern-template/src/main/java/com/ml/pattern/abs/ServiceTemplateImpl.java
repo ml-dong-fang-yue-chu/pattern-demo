@@ -1,5 +1,6 @@
 package com.ml.pattern.abs;
 
+import com.ml.pattern.excepion.MLException;
 import com.ml.pattern.util.MLBaseResult;
 
 /**
@@ -13,7 +14,19 @@ public class ServiceTemplateImpl implements ServiceTemplate {
 
 
     @Override
-    public void execute(MLBaseResult<?> result, ServiceBack serviceBack) {
+    public void execute( final  MLBaseResult<?> result,final ServiceCallBack serviceCallBack) {
+        try {
+            serviceCallBack.check();
+
+            serviceCallBack.doService();
+
+        }catch (MLException e){
+
+        }catch (Exception e){
+
+        }finally {
+            
+        }
 
     }
 }

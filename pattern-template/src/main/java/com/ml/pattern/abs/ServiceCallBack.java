@@ -7,7 +7,7 @@ package com.ml.pattern.abs;
  * @Date 2019/4/23 21:17
  * @Version 1.0
  */
-public interface ServiceBack {
+public interface ServiceCallBack {
 
     /**
      * 前置参数检查

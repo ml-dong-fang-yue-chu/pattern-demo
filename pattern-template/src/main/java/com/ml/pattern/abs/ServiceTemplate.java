@@ -11,5 +11,5 @@ import com.ml.pattern.util.MLBaseResult;
  */
 public interface ServiceTemplate {
 
-    public void execute(MLBaseResult<?> result,ServiceBack serviceBack);
+    public void execute(MLBaseResult<?> result, ServiceCallBack serviceCallBack);
 }
